@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -21,7 +22,7 @@ class DetailScreen extends StatelessWidget {
       }
     }
   }
-
+//FORMATDATE
   String _formatDate(String iso) {
     try {
       final dt = DateTime.parse(iso).toLocal();
